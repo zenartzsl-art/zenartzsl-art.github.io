@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LATEST WORK | ZenArtz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+    
+    <style>
+        .back-nav {
+            padding: 20px 0;
+            margin-bottom: 20px;
+        }
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: #fff;
+            text-decoration: none;
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 600;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            padding: 10px 20px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 4px;
+            background: rgba(255, 255, 255, 0.03);
+            transition: all 0.3s ease;
+        }
+        .back-btn:hover {
+            background: #fff;
+            color: #000;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+            border-color: #fff;
+        }
+        .latest-work-section {
+            padding-bottom: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-grid"></div>
+
+    <div class="container back-nav">
+        <a href="index.html" class="back-btn">← Back to Home</a>
+    </div>
+
+    <main class="container latest-work-section">
+        <div class="section-title reveal fade-up">
+            <h2>LATEST WORK</h2>
+            <p style="color: rgba(255,255,255,0.6); font-family: 'Inter', sans-serif; margin-top: 5px;">A collection of my most recent Projects</p>
+            <div class="title-line"></div>
+        </div>
+
+        <div class="portfolio-grid">
+            
+            <div class="project-card reveal fade-up" onclick="openPopup('project1')">
+                <div class="card-inner">
+                    <div class="thumbnail" style="background-image: url('latest/youngroma/5.png');"></div>
+                    <div class="card-overlay">
+                        <h3>YOUNGROMA</h3>
+                        <p>Logo design</p>
+                        <span class="view-btn">VIEW PROJECT →</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal fade-up" onclick="openPopup('project2')" style="transition-delay: 0.1s;">
+                <div class="card-inner">
+                    <div class="thumbnail" style="background-image: url('latest/NIMZ/4.png');"></div>
+                    <div class="card-overlay">
+                        <h3>NIMZ CLOTHING</h3>
+                        <p>Logo design</p>
+                        <span class="view-btn">VIEW PROJECT →</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal fade-up" onclick="openPopup('project3')" style="transition-delay: 0.2s;">
+                <div class="card-inner">
+                    <div class="thumbnail" style="background-image: url('latest/G26/5.png');"></div>
+                    <div class="card-overlay">
+                        <h3>GALLERY 26 CLOTHING</h3>
+                        <p>Logo design</p>
+                        <span class="view-btn">VIEW PROJECT →</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal fade-up" onclick="openPopup('project4')" style="transition-delay: 0.3s;">
+                <div class="card-inner">
+                    <div class="thumbnail" style="background-image: url('latest/MOI/1.png');"></div>
+                    <div class="card-overlay">
+                        <h3>MOI GARDEN CAFE</h3>
+                        <p>Logo design</p>
+                        <span class="view-btn">VIEW PROJECT →</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal fade-up" onclick="openPopup('project5')" style="transition-delay: 0.3s;">
+                <div class="card-inner">
+                    <div class="thumbnail" style="background-image: url('latest/APEX/4.png');"></div>
+                    <div class="card-overlay">
+                        <h3>APEX GLOBAL SOLUTIONS</h3>
+                        <p>Logo design</p>
+                        <span class="view-btn">VIEW PROJECT →</span>
+                    </div>
+                </div>
+            </div>
+                        <div class="project-card reveal fade-up" onclick="openPopup('project6')" style="transition-delay: 0.3s;">
+                <div class="card-inner">
+                    <div class="thumbnail" style="background-image: url('latest/SANKA/2.png');"></div>
+                    <div class="card-overlay">
+                        <h3>SANKA BOYS</h3>
+                        <p>Logo design</p>
+                        <span class="view-btn">VIEW PROJECT →</span>
+                    </div>
+                </div>
+            </div>
+            
+            
+
+        </div>
+    </main>
+
+    <footer class="reveal fade-up">
+        <div class="footer-content">
+            <div class="footer-left">
+                <a href="index.html" class="back-btn">← Back to Main Portfolio</a>
+            </div>
+            <div class="footer-right">
+                <p class="copyright">All rights reserved ZenArtz © 2026</p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="projectPopup" class="modal">
+        <div class="modal-backdrop" onclick="closePopup()"></div>
+        <div class="modal-header">
+            <h3 id="modalTitle">Project View</h3>
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+        </div>
+        <div class="modal-content" id="modalGallery">
+            </div>
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+</html>
