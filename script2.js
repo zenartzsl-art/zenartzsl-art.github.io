@@ -15,7 +15,15 @@ const projectData = {
     'posters': ['Posters/poster (1).png', 'Posters/poster (2).png', 'Posters/poster (3).png', 'Posters/poster (4).png', 'Posters/poster (5).png', 'Posters/poster (6).png', 'Posters/poster (7).png', 'Posters/poster (8).png'],
     'logos': ['logos/logo (2).png', 'logos/logo (3).png', 'logos/logo (4).png', 'logos/logo (5).png', 'logos/logo (6).png', 'logos/logo (7).png', 'logos/logo (8).png', 'logos/logo (9).png', 'logos/logo (10).png', 'logos/logo (11).png', 'logos/logo (12).png', 'logos/logo (13).png', 'logos/logo (14).png', 'logos/logo (15).png', 'logos/logo (16).png', 'logos/logo (17).png'],
      'leaflets': ['leaflets/leaflet (1).jpg', 'leaflets/leaflet (1).png', 'leaflets/leaflet (2).png', 'leaflets/leaflet (3).png', 'leaflets/leaflet (4).png', 'leaflets/leaflet (5).png'],
-    'packaging': ['pack/pack (1).png' ,'pack/pack (2).png','pack/pack (3).png','pack/pack (4).png','pack/pack (5).png','pack/pack (6).png','pack/pack (7).png']
+    'packaging': ['pack/pack (1).png' ,'pack/pack (2).png','pack/pack (3).png','pack/pack (4).png','pack/pack (5).png','pack/pack (6).png','pack/pack (7).png'],
+    'project1': ['latest/youngroma/1.png','latest/youngroma/2.png','latest/youngroma/3.png','latest/youngroma/4.png','latest/youngroma/5.png',],
+     'project2': ['latest/NIMZ/1.png','latest/NIMZ/2.png','latest/NIMZ/3.png','latest/NIMZ/4.png','latest/NIMZ/5.png',],
+     'project3': ['latest/G26/1.png','latest/G26/2.png','latest/G26/3.png','latest/G26/4.png','latest/G26/5.png',],
+      'project4': ['latest/MOI/1.png','latest/MOI/2.png','latest/MOI/3.png','latest/MOI/4.png',],
+       'project5': ['latest/APEX/1.png','latest/APEX/2.png','latest/APEX/3.png','latest/APEX/4.png','latest/APEX/5.png',],
+       'project6': ['latest/SANKA/1.png','latest/SANKA/2.png','latest/SANKA/3.png',]
+    
+    
 };
 
 const categoryTitles = {
@@ -23,7 +31,13 @@ const categoryTitles = {
     'posters': 'Event & Marketing Posters',
     'logos': 'Brand Identities',
     'leaflets': 'Leaflets / Z folds',
-    'packaging': 'Product Packaging'
+    'packaging': 'Product Packaging',
+    'project1': 'YOUNGROMA',
+    'project2': 'NIMZ',
+    'project3': 'G26',
+     'project4': 'MOI',
+     'project5': 'APEX',
+     'project6': 'SANKA'
 };
 
 // --- Mobile Navigation Toggle ---
